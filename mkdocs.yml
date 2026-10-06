@@ -1,0 +1,50 @@
+site_name: omron-vitals-sheet
+site_url: https://vitals-sheet.getperf.net
+site_description: OMRON Connect の血圧・体組成データを Google スプレッドシートへ蓄積する非公式ツール
+
+theme:
+  name: material
+  language: ja
+  palette:
+    - scheme: default
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/weather-night
+        name: ダークモードに切り替え
+    - scheme: slate
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/weather-sunny
+        name: ライトモードに切り替え
+  features:
+    - navigation.footer
+    - navigation.sections
+    - navigation.indexes
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - tables
+  - toc:
+      permalink: true
+
+nav:
+  - ホーム: index.md
+  - セットアップ:
+      - setup/index.md
+      - 1. テンプレートをコピー: setup/copy-template.md
+      - 2. 権限の承認: setup/authorize.md
+      - 3. 初回 CSV の登録: setup/initial-csv.md
+      - 4. 取込と週次トリガー: setup/first-sync.md
+  - 使い方:
+      - usage/index.md
+      - 体組成 CSV を送る: usage/body-csv.md
+      - 定期便が来なかった週: usage/manual-fill.md
+      - 閲覧用シートとグラフ: usage/dashboard.md
+      - コードを更新する: usage/update.md
+  - プライバシーポリシー: privacy.md
+  - 利用規約・免責: terms.md

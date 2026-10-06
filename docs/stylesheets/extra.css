@@ -1,0 +1,24 @@
+/* MkDocs Material の img{width:100%} を上書き */
+.md-content img.img-small,
+.md-content img.img-medium,
+.md-content img.img-large {
+  width: auto !important;
+}
+
+/* 小さめ画像 */
+.md-content img.img-small {
+  max-width: 320px !important;
+  margin: 1rem auto;
+}
+
+/* 中サイズ */
+.md-content img.img-medium {
+  max-width: 480px !important;
+  margin: 1rem auto;
+}
+
+/* 大サイズ */
+.md-content img.img-large {
+  max-width: 720px !important;
+  margin: 1.5rem auto;
+}
