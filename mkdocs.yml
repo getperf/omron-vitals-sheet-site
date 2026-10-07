@@ -36,10 +36,11 @@ nav:
   - ホーム: index.md
   - セットアップ:
       - setup/index.md
-      - 1. テンプレートをコピー: setup/copy-template.md
-      - 2. 権限の承認: setup/authorize.md
-      - 3. 初回 CSV の登録: setup/initial-csv.md
-      - 4. 取込と週次トリガー: setup/first-sync.md
+      - 1. OMRON connect を設定: setup/omron-connect.md
+      - 2. テンプレートをコピー: setup/copy-template.md
+      - 3. 権限の承認: setup/authorize.md
+      - 4. 初回 CSV の登録: setup/initial-csv.md
+      - 5. 取込と週次トリガー: setup/first-sync.md
   - 使い方:
       - usage/index.md
       - 体組成 CSV を送る: usage/body-csv.md
