@@ -33,3 +33,6 @@ mkdocs.yml.bak
 # Misc
 *.bak
 *.tmp
+
+# uv project file (local only; requirements.txt is canonical)
+pyproject.toml

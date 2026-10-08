@@ -10,7 +10,6 @@
 ## 手順
 
 1. 新しい版の `Code.gs` を開きます。
-   <!-- TODO(公開時): アプリのリポジトリ / Release の URL に差し替える -->
    入手先: [omron-vitals-sheet のリリース](https://github.com/getperf/omron-vitals-sheet/releases)
 2. スプレッドシートのメニュー **拡張機能 → Apps Script** を開きます。
 3. 左の一覧の `Code.gs` を開き、中身をすべて選択して削除してから、新しい `Code.gs` の全文を貼り付けて保存します。
